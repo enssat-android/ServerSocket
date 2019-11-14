@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">client_socket_server</string>
+    <string name="client">client_socket</string>
+    <string name="server">server_socket</string>
+    <string name="server_title">server title</string>
+
+    <string name="send_new_message">send new message</string>
+    <string name="send">send</string>
+    <string name="connect">connect</string>
+</resources>
