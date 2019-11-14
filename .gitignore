@@ -1,0 +1,8 @@
+/build
+.idea
+.gradle
+app/build
+*.iml
+gradle
+gradées
+gradées.bat
