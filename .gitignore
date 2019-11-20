@@ -4,6 +4,7 @@
 app/build
 *.iml
 gradle
-gradées
-gradées.bat
+gradlew
+gradlew.bat
+local.properties
 app/app.iml
