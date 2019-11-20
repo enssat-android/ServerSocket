@@ -72,7 +72,7 @@ class ServerSocket(val context: Context, val listener: (String) -> Unit) {
                         mainThread.execute { listener(msg) }
 
                         //répond avec message + adresse
-                        val data = Message.toJson(Message(msg, socket.remoteSocketAddress.toString()))
+                        val data = Message.toJson(PongMessage(msg, socket.remoteSocketAddress.toString()))
                             .toByteArray(StandardCharsets.UTF_8)
                         socket.getOutputStream().write(data)
                         socket.getOutputStream().flush()
